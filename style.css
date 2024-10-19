@@ -1,0 +1,63 @@
+header {
+
+	color: orange;
+	font-size: larger;
+	text-align: center;
+}
+
+body{
+	font-family: VT323;
+	color: yellow;
+	font-size: larger;
+	padding: 15%;
+	background-color: black;
+
+}
+
+h1{
+	text-align: center;
+	color: cyan;
+}
+
+section {
+	display: grid;
+	text-align: center;
+	place-items: center;
+	align-content: center;
+	min-height: 100vh;
+	
+}
+
+/* border: 1px;
+	border-style: solid;
+	border-color: springgreen;
+*/
+
+.hide {
+	opacity: 0;
+	transition: all 2s;
+}
+
+@media(prefers-reduced-motion) {
+
+	.hide{
+		transition: none;
+	}
+}
+
+.show {
+	opacity: 1;
+}
+
+li{
+	display: inline;
+	align-items: center;
+	
+}
+
+a {
+	text-decoration: underline;
+	color: magenta;
+	font-size: large;
+}
+
